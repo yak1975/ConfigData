@@ -1,33 +1,33 @@
 ---
 spring:
   profiles: sentence
-eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
 ---
 spring:
   profiles: subject
 words: I,You,He,She,It
-eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
 
 ---
 spring:
   profiles: verb
 words: ran,knew,had,saw,bought
-eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
 
 ---
 spring:
   profiles: article
 words: a,the
-eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
 
 ---
 spring:
   profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
-eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
 
 ---
 spring:
   profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhog  
-eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
